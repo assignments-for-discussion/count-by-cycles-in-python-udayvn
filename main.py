@@ -1,9 +1,9 @@
 
 def count_batteries_by_usage(cycles):
   l =0
-  m=0
-  h=0
-  for i in range cycles:
+  m =0
+  h =0
+  for i in cycles:
     if i < 150:
       l = l+1
     if (i >150 && i < 649) :
