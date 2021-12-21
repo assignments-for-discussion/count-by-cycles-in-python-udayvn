@@ -8,7 +8,7 @@ def count_batteries_by_usage(cycles):
       l = l+1
     if (i >150 && i < 649) :
       m = m+1
-    if i>649:
+    if i>650:
       h = h+1
   return {
     "lowCount": l,
